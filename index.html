@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MUNTO</title>
+  <link rel="icon" href="img/icon.png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&family=Noto+Sans+KR:wght@100;300;400;500;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<link rel="manifest" href="/manifest.json" crossorigin="use-credentials" />
+  <script src="https://kit.fontawesome.com/eaeb383721.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script defer src="js/main.js"></script>
+  <script src="service-worker.js"></script>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <!--로고, 오른쪽 아이콘-->
+      <div class="top">
+      <h1>
+        <a href="splash.html"><img src="img/logo.png" alt=""></a>
+      </h1>
+      <div class="top_right">
+        <img src="img/icon/stry_plus.png" alt="">
+        <img src="img/icon/icon _search.png" alt="">
+        <img src="img/icon/icon _bell.png" alt="">
+      </div>
+    </div>
+
+      <!--탭메뉴-->
+      <nav>
+        <ul class="list_tab">
+          <li><a href="#" class="on"><span>추천</span></a></li>
+          <li><a href="#" ><span>문화·예술</span></a></li>
+          <li><a href="#"><span>여행</span></a></li>
+          <li><a href="#"><span>운동</span></a></li>
+          <li><a href="#"><span>자기계발</span></a></li>
+        </ul>
+      </nav>
+
+    </header>
+    <main>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!--비쥬얼1-->
+                <div class="bg swiper-slide">
+                    <img src="img/visual.jpg" alt="">
+                    <div class="visual">
+                      <p>소셜링 이벤트</p>
+                      <h5>축덕도 축알못도 월드컵에는 진심이니까!
+                        <br>카타르 월드컵 함께 응원하고 치킨 먹어요
+                      </h5>
+                      <a href="">자세히 보기 ></a>
+                  </div>
+                </div>
+              <!--비쥬얼1-->
+              <div class="bg swiper-slide">
+                <img src="img/visual2.webp" alt="">
+                <div class="visual">
+                  <p>소셜링 이벤트</p>
+                  <h5>연말파티부터 맛집 탐방까지
+                    <br>멤버들과 따뜻한 연말 함께
+                  </h5>
+                  <a href="">자세히 보기 ></a>
+              </div>
+            </div>
+              <!--비쥬얼1-->
+              <div class="bg swiper-slide">
+                <img src="img/visual3.webp" alt="">
+                <div class="visual">
+                  <p>소셜링 이벤트</p>
+                  <h5>어떤 클럽에 가입할지 고민이라면?
+                    <br><이달의 추천 클럽>을 확인하세요!</h5>
+                  </h5>
+                  <a href="">자세히 보기 ></a>
+                </div>
+              </div>
+  
+        </div>
+        </div>
+      <section class="section1"><!--인기소셜링-->
+        <h4>인기 소셜링</h4>
+        <article>
+          <div class="left"><!--왼쪽컨텐츠-->
+            <img src="img/coktail.jpg" alt="">
+          </div>
+          <div class="right"><!--오른쪽컨텐츠-->
+            <div class="tag_wrap">
+              <div class="tag"><p>칵테일</p></div>
+              <div class="tag"><p>클럽소셜링</p></div>
+            </div>
+            <h5>[1회차]불금 칵테일파티 열어요!</h5>
+            <p class="span_wrap"><img src="img/icon/icon_pin.png" alt="" class="icon">
+              <span>영등포구</span><span>·</span><span class="date">내일</span><span>오후 7:30</span>
+            <img src="img/icon/icon_people.png" alt=""  class="icon peo">
+            <span>7/9</span></p>
+            <div class="pf_wrap">
+              <div class="pf">
+                <img src="img/pf1-1.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf1-2.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf1-3.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf1-4.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf1-5.jpg" alt="">
+              </div>
+              <div class="pf pf_plus">
+                <img src="img/icon/plus.png" alt="">
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="left"><!--왼쪽컨텐츠-->
+            <img src="img/s1-2.png" alt="">
+          </div>
+          <div class="right"><!--오른쪽컨텐츠-->
+            <div class="tag_wrap">
+              <div class="tag"><p>취미공유</p></div>
+            </div>
+            <h5>Ep.16 나의 취미생활</h5>
+            <p class="span_wrap">
+              <img src="img/icon/icon_pin.png" alt="" class="icon">
+              <span >서초구</span><span>·</span>
+              <span class="date">12/13</span><span>오후 2:30</span>
+            <img src="img/icon/icon_people.png" alt="" class="icon peo">
+            <span>9/10</span></p>
+            <div class="pf_wrap">
+              <div class="pf">
+                <img src="img/pf2-1.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf2-2.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf2-3.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf2-4.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf2-5.jpg" alt="">
+              </div>
+              <div class="pf pf_plus">
+                <img src="img/icon/plus.png" alt="">
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="left"><!--왼쪽컨텐츠-->
+            <img src="img/camera.jpg" alt="">
+          </div>
+          <div class="right"><!--오른쪽컨텐츠-->
+            <div class="tag_wrap">
+              <div class="tag"><p>사진</p></div>
+              <div class="tag"><p>클럽소셜링</p></div>
+            </div>
+            <h5>소라멘션 스튜디오 촬영 포토...</h5>
+            <p class="span_wrap"><img src="img/icon/icon_pin.png" alt="" class="icon">
+              <span>용산구</span><span>·</span><span class="date">12/17</span><span>오후 1:30</span>
+            <img src="img/icon/icon_people.png" alt=""  class="icon peo">
+            <span>3/4</span></p>
+            <div class="pf_wrap">
+              <div class="pf">
+                <img src="img/pf3-1.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf3-2.jpg" alt="">
+              </div>
+              <div class="pf">
+                <img src="img/pf3-3.jpg" alt="">
+              </div>
+              <div class="pf pf_plus">
+                <img src="img/icon/plus.png" alt="">
+              </div>
+            </div>
+          </div>
+        </article>
+        <div class="my_s3">
+          <div class="btn">
+            <p> 더 보기 </p></div>
+      </div>
+      </section>
+      <section class="section2"><!--이번 주말에 뭐하지-->
+        <h4>이번 주말에 뭐하지</h4>
+        <div class="hol_wrap">
+          <div class="left">
+            <img src="img/holi1.jpg" alt="">
+            <div class="shadow"></div>
+            <p>이번 주가 마지막, 단풍이<br>
+              보이는 힐링카페</p>
+          </div>
+          <div class="right">
+            <div class="right_article">
+              <img src="img/holi2.jpg" alt="">
+              <div class="shadow"></div>
+              <p>몸도 마음도 행복한<br>
+                디저트를 찾고 있다면</p>
+            </div>
+            <div class="right_article">
+              <img src="img/holi3.jpg" alt="">
+              <div class="shadow"></div>
+              <p>바쁜 일상 속 음악이<br> 
+                필요한 순간</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section3"><!--멤버들의 후기-->
+        <h4>멤버들의 후기</h4>
+        <div class="review_wrap swiper mySwiper1">
+          <div class="swiper-wrapper">
+          <div class="review swiper-slide">
+            <img src="img/review1.jpg" alt="" class="re_img">
+            <a href="" class="heart1"><img src="img/icon/heart.png" alt=""  ></a>
+            <a href="" class="heart_fill1"><img src="img/icon/heart_fill.png" alt=""  ></a>
+            <p>[터프팅 원데스 클래스]스마일러그 특별한 기억 만...</p>
+          </div>
+          <div class="review swiper-slide">
+            <img src="img/review2.jpg" alt="" class="re_img">
+            <a href="" class="heart2"><img src="img/icon/heart.png" alt="" ></a>
+            <a href="" class="heart_fill2"><img src="img/icon/heart_fill.png" alt=""  ></a>
+            <p>에스팩토리 전시회 갔다왔어요! 현대인에게 미래의...</p>
+          </div>
+          <div class="review swiper-slide">
+            <img src="img/review3.jpg" alt="" class="re_img">
+<a href=""><img src="img/icon/heart.png" alt="" class="heart"></a>
+<a href=""><img src="img/icon/heart_fill.png" alt="" class="heart_fill" ></a>          
+            <p>독립영화 제작과정을 바로 옆에서 볼 수 있어서 좋... </p>
+          </div>
+          <div class="review swiper-slide">
+            <img src="img/review4.jpg" alt="" class="re_img">
+            <a href="" ><img src="img/icon/heart.png" alt="" class="heart"></a>
+            <a href=""><img src="img/icon/heart_fill.png" alt="" class="heart_fill" ></a>
+            <p>정말 정말 분위기와 멤버가 최상이었던 모임! 카페... </p>
+          </div>
+          <div class="review swiper-slide">
+            <img src="img/review5.jpg" alt="" class="re_img">
+            <a href="" ><img src="img/icon/heart.png" alt="" class="heart"></a>
+            <a href=""><img src="img/icon/heart_fill.png" alt="" class="heart_fill" ></a>
+            <p>주말정모 후기 아직 숙련도가 부족했지만 다음에는... </p>
+          </div>
+          <div class="review swiper-slide">
+            <img src="img/review6.jpg" alt="" class="re_img">
+            <a href=""><img src="img/icon/heart.png" alt="" class="heart"></a>
+            <a href=""><img src="img/icon/heart_fill.png" alt="" class="heart_fill" ></a>
+            <p>오늘도 진짜 최고의 경험! 클라이밍을 시작하면서... </p>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="section4"><!--인기 소셜링 클럽-->
+        <h4>인기 소셜링 클럽</h4>
+        <div class="background"><!--백그라운드로 이미지 깔고-->
+          <div class="article">
+            <div class="left"><!--왼쪽컨텐츠-->
+              <img src="img/fire.jpg" alt="">
+            </div>
+            <div class="right"><!--오른쪽컨텐츠-->
+              <p class="h4">[옹기종기 글램핑 3회차]가평으로 떠나요</p>
+              <p>
+                <span>종료</span>
+                <span>송파구</span>
+                <span>11.18(금)</span>
+                <span>오후 6:00</span>
+              </p>
+            </div>
+          </div><!--article-->
+        </div><!--backimg-->
+      </section>
+      <section class="section5"><!--소셜링에서 만난 사람들-->
+        <h4>소셜링에서 만난 사람들</h4>
+        <div class="people_wrap swiper mySwiper1">
+          <div class="swiper-wrapper">
+          <div class="peo swiper-slide">
+            <img src="img/peo1.jpg" alt="">
+            <p>순간을 기록해요, 카메라로 세상을 담는 효정님       </p>
+          </div>
+          <div class="peo swiper-slide">
+            <img src="img/peo2.jpg" alt="">
+            <p>일기로 하는 집들이, 글로 관계를 맺는 우혁님</p>
+          </div>
+          <div class="peo swiper-slide">
+            <img src="img/peo3.jpg" alt="">
+            <p>낭만이 있는 모든 순간을 사랑하는 하정님</p>
+          </div>
+          <div class="peo swiper-slide">
+            <img src="img/peo4.jpg" alt="">
+            <p>좋아하는 것들로 취향의 폭을 넓히는 수아님</p>
+          </div>
+          <div class="peo swiper-slide">
+            <img src="img/peo5.jpg" alt="">
+            <p>예술을 즐기고 향유하는 딜레탕트 승욱님</p>
+          </div>
+          <div class="peo swiper-slide">
+            <img src="img/peo6.jpg" alt="">
+            <p>운동 취향으로 건강한 영향력을 만드는 민지님</p>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="section6"><!--소셜링 열기-->
+        <div class="left">
+          <p class="h4">소셜링 열기</p>
+          <p>나와 꼭 맞는 취향을 가진 사람들과 만날 기회 직접 만들어볼까요?</p>
+        </div>
+        <div class="right">
+          <img src="img/icon/go.png" alt="">
+        </div>
+      </section>
+    </main>
+    <div class="dark"></div>
+    <div class="popup">
+      <p>참여하시겠습니까?</p>
+      <div class="btn_wrap">
+      <button class="btn">
+        <span>참여하기</span> 
+      </button>
+      <button class="btn">
+        <span>돌아가기</span> 
+      </button>
+    </div>
+  
+    </div>
+
+    <div class="nav-bar">
+      <ul class="list">
+        <li>
+          <a href=""><img src="img/nav-bar/main_fill.png" alt=""></a>
+          <p class="on">소셜링</p>
+        </li>
+        <li>
+          <a href=""><img src="img/nav-bar/club.png" alt=""></a>
+          <p>클럽</p>
+        </li>
+        <li>
+          <a href="rounge.html"><img src="img/nav-bar/rounge.png" alt=""></a>
+          <p>라운지</p>
+        </li>
+        <li>
+          <a href=""><img src="img/nav-bar/chat.png" alt=""></a>
+          <p>채팅</p>
+        </li>
+        <li>
+          <a href="mypage.html"><img src="img/nav-bar/my-pf.png" alt=""></a>
+          <p>프로필</p>
+        </li>
+      </ul>
+    </div>
+  </div><!--container-->
+</body>
+</html>

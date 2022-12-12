@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+*{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.back_icon{
+  margin-top : 20px;
+    width: 50px;
+}
+.login_container {
+    width: 100%;
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+  }
+  
+  .login {
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .login_section{
+    width: 90%;
+    margin: 0 auto 80px;
+  }
+  .login .login_logo {
+    width: 100%;
+    height: 135px;
+    margin: 0 auto;
+    line-height: 130px;
+    font-size: 20px;
+    font-weight:500;
+    font-size: 35px;
+    color : #226185;
+  }
+  .login .login_account {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .login .login_account a {
+    color: #585858;
+  }
+  
+  .login_form {
+    width: 100%;
+    margin: 0 auto 80px;
+    font-size: 0.8em;
+  }
+  .login_form p{ 
+    font-size: 16px;  font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+  }
+  .login_form input {
+    width: 90%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  .login_form input:focus {
+    outline: none;
+  }
+  .login_form input::placeholder {
+    color: #b6b6b6;
+  }
+  .login_form .login_form_id {
+    border-radius: 15px;
+    padding-left: 10px;
+  }
+  .login_form .login_form_pw {
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  .login_form .login_form_btn {
+    cursor: pointer;
+    background: linear-gradient(-45deg, #d151e2, #7082d3, #81beb0);
+    animation: gradient 15s ease infinite;
+    color : #fff;
+    border-radius: 15px;
+    font-size: 18px;
+    border : none;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+  }
+
+  .login_form .login_form_btn:hover {
+    box-shadow: 0px 3px 3px rgba(100, 100, 100, 0.9);
+    transform: translateY(-2px);
+
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .login_form .check{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .login_form .login_form_check {
+    width : 20px;
+  }
+  .login_form label {
+    position: absolute;
+    display: block;
+    color: #585858;
+    left : 30px; top : 15px
+  }
+  .login_sns{
+    display: flex;
+  }

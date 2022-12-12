@@ -1,0 +1,13 @@
+
+{
+  "proxy": "http://http://localhost:3001/",
+
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "sw-precache": "^5.2.1",
+    "sw-precache-webpack-plugin": "^1.0.0"
+  },
+  "scripts": {
+    "pre": "sw-precache --config sw-config.js"
+  }
+}
