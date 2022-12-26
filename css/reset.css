@@ -65,8 +65,9 @@ h1 a span { display:none; }
 
 /*nav-bar*/
 .nav-bar{
-  max-width:550px; min-width:270px;
-  margin:0 auto;
+ 
+ 
+  
 }
 .nav-bar ul.list{
   position: fixed;
@@ -80,6 +81,8 @@ text-align: center;
 padding: 10px 0;
 background-color: #fff;
 z-index: 99;
+max-width:550px; min-width:270px;
+margin:0 auto;
 }
 .nav-bar ul.list li img{
   width : 38px;
